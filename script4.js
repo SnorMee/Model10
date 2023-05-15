@@ -13,7 +13,7 @@ let drawTreeMap = (data) => {
     })
 
     let createTreeMap = d3.treemap()
-                            .size([1000, 600])
+                            .size([1000, 750])
 
     createTreeMap(hierarchy)
 
